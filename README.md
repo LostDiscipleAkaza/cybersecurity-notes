@@ -111,45 +111,6 @@ Engineered around EC-Council's CEH v13 curriculum, covering theoretical concepts
 
 ---
 
-## 🚀 Git Initialization & GitHub Upload Guide
-
-Follow these simple steps in your terminal or PowerShell to initialize Git and upload this repository to your GitHub account:
-
-### Step 1: Open PowerShell in this Directory
-```powershell
-cd c:\Users\LENOVO\OneDrive\Desktop\Cybersecurity-Study-Notes
-```
-
-### Step 2: Initialize Git Repository
-```powershell
-git init
-```
-
-### Step 3: Stage and Commit All Files
-```powershell
-git add .
-git commit -m "feat: initial commit with cybersecurity foundations, comptia security+, and ceh v13 master guides"
-```
-
-### Step 4: Create a New Repository on GitHub
-1. Go to [GitHub.com](https://github.com/new).
-2. Name your repository (e.g., `Cybersecurity-Study-Notes` or `Cybersecurity-Master-Roadmap`).
-3. Set visibility to **Public** or **Private** (do *not* initialize with a README since you already have this one).
-4. Click **Create repository**.
-
-### Step 5: Link Remote and Push to GitHub
-```powershell
-# Set default branch to main
-git branch -M main
-
-# Add your GitHub repository URL (replace with your actual GitHub username and repo name)
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/Cybersecurity-Study-Notes.git
-
-# Push all files to GitHub
-git push -u origin main
-```
-
----
 
 ## 📖 Recommended Study Paths
 
